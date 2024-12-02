@@ -1,5 +1,5 @@
 /**/
-class fish
+class Fish
 {
 public:
 
