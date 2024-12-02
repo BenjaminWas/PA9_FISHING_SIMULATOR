@@ -1,0 +1,8 @@
+/**/
+class Lake
+{
+public:
+
+private:
+
+};

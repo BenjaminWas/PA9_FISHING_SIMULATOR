@@ -1,0 +1,8 @@
+/**/
+class Tile
+{
+public:
+
+private:
+
+};
