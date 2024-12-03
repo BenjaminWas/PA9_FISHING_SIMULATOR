@@ -8,5 +8,5 @@ public:
 
 private:
 	Tile lake[MAX_SIZE][MAX_SIZE];
-	sf::Window* window;
+	sf::RenderWindow* window;
 };
