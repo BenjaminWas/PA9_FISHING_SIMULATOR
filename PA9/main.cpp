@@ -21,6 +21,20 @@ int main(void)
         // Display window contents on screen
         app.display();
     }
-    */
-	return 0;
+    */Lake lake(&window);
+
+while (window.isOpen()) {
+    sf::Event event;
+    while (window.pollEvent(event)) {
+        if (event.type == sf::Event::Closed) {
+            window.close();
+        }
+    }
+
+    window.clear();
+    lake.draw(); // Draw the lake
+    window.display();
+}
+
+return 0;
 }
