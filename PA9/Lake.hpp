@@ -12,10 +12,6 @@ public:
 
 private:
 	Tile lake[MAX_SIZE][MAX_SIZE];
-	sf::RectangleShape pier;
-	sf::RectangleShape shadow;
 	sf::RenderWindow* window; 
 
-	void createTiles();
-	void createPier();
 };
