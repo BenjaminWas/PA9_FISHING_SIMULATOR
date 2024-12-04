@@ -49,6 +49,7 @@ int main(void)
         // Clear screen
         app.clear();
 
+        // Draw water
         for (int i = 0; i < MAX_SIZE; i++) {
             for (int j = MAX_SIZE / 2; j < MAX_SIZE; j++) { waterSprite.setPosition(i * TILE_SIZE, j * TILE_SIZE);
             app.draw(waterSprite); }
