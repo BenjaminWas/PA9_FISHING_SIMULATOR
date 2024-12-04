@@ -7,11 +7,11 @@
 class Lake
 {
 public:
-	Lake(sf::RenderWindow* window);
+	Lake(sf::RenderWindow* window, sf::Texture& waterTexture, sf::Texture& dockTexture); 
 	void draw();
 
 private:
-	Tile lake[MAX_SIZE][MAX_SIZE];
-	sf::RenderWindow* window; 
+	Tile lake[MAX_SIZE][MAX_SIZE]; // 25x25
+
 
 };

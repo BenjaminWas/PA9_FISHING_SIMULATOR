@@ -1,6 +1,6 @@
 /**/
 #include "Lake.hpp"
-#define TILE_SIZE 32
+#define TILE_SIZE 24
 using namespace sf;
 
 int main(void)
@@ -39,28 +39,35 @@ int main(void)
     woodSprite.setScale(TILE_SIZE / (float)t2.getSize().x, TILE_SIZE / (float)t2.getSize().y
     );
 
+    Lake lake(&app, t1, t2);
+
     while (app.isOpen()) {
-        sf::Event event;
-        while (app.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
+        sf::Event ev;
+        
+        while (app.pollEvent(ev)) {
+            if (ev.type == sf::Event::Closed)
                 app.close();
         }
 
+
         // Clear screen
-        app.clear();
+        app.clear(sf::Color::White);
+
+        lake.draw();
 
         // Draw water
-        for (int i = 0; i < MAX_SIZE; i++) {
-            for (int j = MAX_SIZE / 2; j < MAX_SIZE; j++) { waterSprite.setPosition(i * TILE_SIZE, j * TILE_SIZE);
-            app.draw(waterSprite); }
-        }
+        //for (int i = 0; i < MAX_SIZE; i++) {
+        //    for (int j = MAX_SIZE / 2; j < MAX_SIZE; j++) { waterSprite.setPosition(i * TILE_SIZE, j * TILE_SIZE);
+        //    app.draw(waterSprite); }
+        //}
 
-        // Draw  dock 
-        for (int i = 8; i < 16; i++)
-        {
-            woodSprite.setPosition(i * TILE_SIZE, (MAX_SIZE / 2 - 1) * TILE_SIZE);
-            app.draw(woodSprite);
-        }
+        //// Draw  dock 
+        //for (int i = 8; i < 16; i++)
+        //{
+        //    woodSprite.setPosition(i * TILE_SIZE, (MAX_SIZE / 2 - 1) * TILE_SIZE);
+        //    app.draw(woodSprite);
+        //}
+
         app.display();
     }
 

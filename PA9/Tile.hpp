@@ -1,3 +1,4 @@
+
 /*
 Tile Class
 friend of Lake so no getter or setters
@@ -14,47 +15,19 @@ class Tile
 	friend class Lake;
 public:
 	//
-	Tile(sf::RenderWindow*, float, float);
+	Tile();
+	Tile(sf::RenderWindow*, float, float, sf::Texture& texture);
 	~Tile();
 	//
-	void update(bool, bool);
+	void update(bool isSelected, bool isFish);
+
+	void draw();
+
 private:
 	sf::RenderWindow* window;
+	sf::Sprite sprite;
 	Fish* fishPtr;
 	bool selected, fish;
 	float x, y;
 };
-//
-Tile::Tile(sf::RenderWindow* window, float x, float y)
-{
-	this->window = window;
-	this->x = x;
-	this->y = y;
-	fishPtr = nullptr;
-	selected = false;
-	fish = false;
-}
-Tile::~Tile()
-{
-	delete(fishPtr);
-}
-//
-void Tile::update(bool isSelected, bool isFish)
-{
-	if (selected) {
-		if (fish) {
 
-		}
-		else {
-
-		}
-	}
-	else {
-		if (fish) {
-
-		}
-		else {
-
-		}
-	}
-}
