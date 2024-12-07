@@ -1,0 +1,38 @@
+﻿  Test.cpp
+  main.cpp
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(238,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(239,20): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(239,20): warning C4244:         with
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(239,20): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(239,20): warning C4244:             T=unsigned int
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(239,20): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(249,49): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(249,49): warning C4244:         with
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(249,49): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(249,49): warning C4244:             T=unsigned int
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(249,49): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         with
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:             T=unsigned int
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         and
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:             T=float
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,90): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         with
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:             T=unsigned int
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         and
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:             T=float
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(297,67): warning C4244:         ]
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(301,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(301,40): warning C4244:         with
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(301,40): warning C4244:         [
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(301,40): warning C4244:             T=unsigned int
+D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\PA_9_TESTS\main.cpp(301,40): warning C4244:         ]
+  Generating Code...
+  PA_9_TESTS.vcxproj -> D:\Sophmore Year\Cpts 122\Programming Assignments\PA_9_TESTS\x64\Debug\laya_PA9.exe
